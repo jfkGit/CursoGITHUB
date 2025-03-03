@@ -2,7 +2,7 @@ name: My Workflow
 on: push
 
 jobs:
-  OneJob:
+  Job1:
     runs-on: ubuntu-latest
     steps:
       - name: Print Hola
