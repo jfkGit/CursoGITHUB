@@ -5,5 +5,5 @@ jobs:
   jOneJob:
     runs-on: ubuntu-latest
     steps:
-      -name: Print Hola
+      - name: Print Hola
         run: echo "Hola"
