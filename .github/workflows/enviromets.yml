@@ -11,9 +11,8 @@ jobs:
     echo:
         runs-on: ubuntu_latest
         environment: ${{inputs.target-env}}
-        env:
-            my-env-value: ${{vars.MY_ENV_VALUE}}
+
 
         steps:
             - name: Echo vars
-              run: echo "Env variable ${{env.my-env-value}}"
+              run: echo "Env variable ${{inputs.target-env}}"
